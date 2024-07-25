@@ -24,9 +24,3 @@ def pascal_triangle(n):
         triangle.append(row)
 
     return triangle
-
-# Example usage:
-n_rows = 5
-result = pascal_triangle(n_rows)
-for row in result:
-    print(row)
